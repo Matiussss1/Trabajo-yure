@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    /* margin-left: 3px; */
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: poppins;
+
+  }
+
+  a{
+    color: inherit;
+}
+
+html{
+    color-scheme: dark;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec1{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    justify-content: center;
+}
+.sec2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.sec3{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.img1{
+    z-index: 1;
+    display: flex;
+    width: 400px;
+    border: solid white 10px;   
+    border-radius: 8px;
+}
+
+
+.img2{
+    z-index: 1;
+    display: flex;
+    width: 413px;
+    border: solid white 10px;   
+    border-radius: 8px;
+}
+
+
+.img3{
+    z-index: 1;
+    display: flex;
+    width: 400px;
+    border: solid white 10px;   
+    border-radius: 8px;
+}
+
+
+.img4{
+    z-index: 1;
+    display: flex;
+    width: 413px;
+    border: solid white 10px;   
+    border-radius: 8px;
+}
+
+.img5{
+    z-index: 1;
+    display: flex;
+    width: 415px;
+    border: solid white 10px;   
+    border-radius: 8px;
+}
+
+.titulo{
+    border-bottom: solid;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+/* ==================================================================== */
+/* ==================================================================== */
+/* ==================================================================== */
+
+.lista{
+    font-size: 20px;
+}
+
+.sec22{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.btn{
+    border: solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all .2s;
+    position: absolute;
+    top: 80%;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: solid white;
+}
+
+
+
+.ganado{
+    position: absolute;
+    right: 85%;
+    top: 50%;
+    font-size: 40px;
+    color: red;
+    border: solid;
+    padding: 5px;
+    transition: .2s;
+    margin: 0 auto;
+}
+
+.ganado:hover{
+    background-color: red;
+    color: black;
+    border: solid red;
+}
+
+/* ==================================================================== */
+/* ==================================================================== */
+/* ==================================================================== */
+
+.listarya{
+    display: flex;
+    justify-content: space-between;
+}

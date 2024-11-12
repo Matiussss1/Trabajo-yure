@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    /* margin-left: 3px; */
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: poppins;
+
+  }
+
+  a{
+    color: inherit;
+}
+
+html{
+    color-scheme: dark;
+}
+
+.final{
+    display: flex;
+    padding-left: 42%;
+    /* font-size: 100px; */
+}
